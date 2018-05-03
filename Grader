@@ -1,0 +1,14 @@
+# This is a marks grader
+in = int(input("Enter your grade: "))
+if 0 <= in <= 39:
+    print("Fail")
+elif 40 <= in < 50:
+    print("Supplement")
+elif 50 <= in <= 64:
+    print("Pass")
+elif 64 < in <=74:
+   print("Pass with merit")
+elif 75 <= in <= 100:
+     print("Distinction")
+else:
+    print("Invalid, grade. Please check again!")
